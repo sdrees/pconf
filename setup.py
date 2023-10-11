@@ -12,7 +12,7 @@ def read(fname):
 
 setup(
     name="pconf",
-    version="1.10.0",
+    version="1.11.0",
     author="Andras Maroy",
     author_email="andras@maroy.hu",
     description=("Hierarchical python configuration with files, environment variables, command-line arguments."),
@@ -27,12 +27,11 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
-        'Programming Language :: Python :: 3.11'
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12'
     ],
     install_requires=['pyyaml', 'deepmerge'],
     extras_require={
